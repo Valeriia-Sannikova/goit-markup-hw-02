@@ -17,11 +17,12 @@ a {
   background-color: #ffffff;
 }
 
-.link-logo .accent {
+.nav .link-logo .accent {
   color: #2e2f42;
 }
 
-.link-logo {
+.nav .link-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
@@ -44,7 +45,8 @@ a {
   color: #404bbf;
 }
 
-.menu-link:hover .menu-link:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
@@ -59,8 +61,6 @@ a {
 .header-contacts .contacts-link:focus {
   color: #404bbf;
 }
-
-/* HERO */
 
 .hero {
   background: #2e2f42;
@@ -88,17 +88,100 @@ a {
   background: #404bbf;
 }
 
-/* FEATURES */
-
 .features {
+  background: #fff;
 }
 .features-title {
+  letter-spacing: 0, 02em;
 }
-.features-list {
-}
-.features-item {
-}
+
 .features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+
 .features-item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.crew {
+  background: #f4f4fd;
+}
+
+.crew-title {
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.crew-item {
+  background: #fff;
+}
+
+.crew-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.crew-item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.info {
+  background: #fff;
+}
+
+.info-title {
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.info-item {
+  background: #fff;
+}
+
+.info-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.info-item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer .link-logo .accent {
+  color: #f4f4fd;
+}
+
+.footer .link-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
