@@ -1,0 +1,104 @@
+.body {
+  font-family: Roboto, Questrial, Epilogue, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.link-logo .accent {
+  color: #2e2f42;
+}
+
+.link-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.menu .menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-item-link:hover,
+.menu-item-link:active,
+.menu-item-link:focus {
+  color: #404bbf;
+}
+
+.menu-link:hover .menu-link:focus {
+  color: #404bbf;
+}
+
+.header-contacts {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: currentColor;
+  font-style: normal;
+}
+
+.header-contacts .contacts-link:hover,
+.header-contacts .contacts-link:focus {
+  color: #404bbf;
+}
+
+/* HERO */
+
+.hero {
+  background: #2e2f42;
+}
+
+.hero-title {
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
+}
+
+/* FEATURES */
+
+.features {
+}
+.features-title {
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+}
+.features-item-text {
+}
