@@ -1,8 +1,9 @@
 .body {
-  font-family: Roboto, Questrial, Epilogue, sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -25,7 +26,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -39,22 +40,24 @@ a {
   color: #2e2f42;
 }
 
+.menu-item-link {
+  color: #2e2f42;
+}
+
 .menu-item-link:hover,
 .menu-item-link:active,
 .menu-item-link:focus {
   color: #404bbf;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
-}
-
 .header-contacts {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: currentColor;
   font-style: normal;
+}
+
+.header-contacts .contacts-link {
+  color: currentColor;
 }
 
 .header-contacts .contacts-link:hover,
@@ -70,10 +73,12 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
+  font-size: 56px;
 }
 
 .hero-btn {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -113,9 +118,12 @@ a {
 }
 
 .crew-title {
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .crew-item {
@@ -140,9 +148,12 @@ a {
 }
 
 .info-title {
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .info-item {
@@ -174,7 +185,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
